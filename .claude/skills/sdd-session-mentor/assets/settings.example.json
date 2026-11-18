@@ -1,0 +1,16 @@
+
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$CLAUDE_PROJECT_DIR/.claude/skills/sdd-session-mentor/scripts/stop_hook.py\"",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}

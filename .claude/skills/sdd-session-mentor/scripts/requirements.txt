@@ -1,0 +1,5 @@
+# Dependências da skill sdd-session-mentor (ficam no venv .claude/sdd-mentor/venv,
+# nunca nas dependências do projeto).
+reportlab>=4.0,<6
+matplotlib>=3.7
+pillow>=10

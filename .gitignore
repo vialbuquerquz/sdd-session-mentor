@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Artefatos gerados quando a skill é testada dentro deste repositório
+.claude/sdd-mentor/
+.claude/sdd-mentor.off
+docs/sessoes-sdd/
+
+# Editores e sistema
+.vscode/
+.idea/
+.DS_Store
