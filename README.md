@@ -161,15 +161,6 @@ Onde cada arquivo gerado fica, o que versionar e todas as variáveis opcionais e
     └── scripts/                        # stop_hook.py, gerar_pdf.py, figuras_base.py, requirements.txt
 ```
 
-## Contribuindo
-
-- Abra uma *issue* descrevendo o problema ou a ideia, com um exemplo de prompt quando fizer
-  sentido.
-- Mantenha os scripts simples e com poucas dependências. O `stop_hook.py` deve continuar usando
-  só a biblioteca padrão do Python, porque roda a cada resposta do Claude.
-- Não há testes automatizados ainda. Antes de um *pull request*, rode o hook com um transcript
-  de exemplo e gere um PDF de teste com `scripts/gerar_pdf.py`.
-- Registre as mudanças no [`CHANGELOG.md`](CHANGELOG.md).
 
 ## Licença
 
